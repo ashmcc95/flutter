@@ -1,0 +1,25 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.leftcol{
+  width: 300px;
+  float:left;
+  padding: 5px 5px;
+  border: 1.5px solid #ccc
+}
+
+.rightcol{
+  float: left;
+  margin-left: 100px;
+}
+
+.leftcol img {
+  max-width: 100%;
+  border-radius: 10%;
+}
+
+.farrightcol{
+  float: left;
+  margin-left: 150px;
+}

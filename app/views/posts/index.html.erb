@@ -1,0 +1,10 @@
+<img src="http://placehold.it/1200x250/text-banner-image">
+
+<% if current_user %>
+<%= render partial: 'form', locals: {post: @post} %>
+<%end%>
+<div class="post-container">
+<% @posts.each do |post| %>
+ <%= render partial: 'post', locals: {post: post} %>
+<% end %>
+</div>
