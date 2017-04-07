@@ -2,16 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.leftcol{
-  width: 300px;
-  float:left;
-  padding: 5px 5px;
-  border: 1.5px solid #ccc
+.middlebio img{
+border-radius: 50%;
+max-width: 100%;
+margin-right: 50px;
+
+
+
 }
 
-.rightcol{
+.middleimg{
+width:30%;
+float: right;
+
+
+}
+.bio{
+padding-left: 10px;
+  width: 60%;
   float: left;
-  margin-left: 100px;
+
+}
+
+
+.middlebio{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  border: 1px solid #588B74;
+  padding: 5px 5px;
+overflow: auto;
+  margin: auto;
+}
+.rightcol{
+  padding-top: 20px;
+  margin: auto;
 }
 
 .leftcol img {
@@ -19,7 +43,6 @@
   border-radius: 10%;
 }
 
-.farrightcol{
-  float: left;
-  margin-left: 150px;
+.h1{
+  font-family: 'Open Sans', sans-serif;
 }

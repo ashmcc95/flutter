@@ -1,13 +1,20 @@
 <h1>Login</h1>
 
 <%= form_tag login_url do %>
-
+<div class="main">
+  <div class= 'space'>
   <%= label_tag :email %>
-  <%= text_field_tag :email %>
-
+</div>
+<div class= 'space'>
+  <%= text_field_tag :email, params[:email], placeholder: 'example@abc.com' %>
+</div>
+<div class= 'space'>
   <%= label_tag :password %>
-  <%= password_field_tag :password %>
+</div>
+<div class= 'space'>
+  <%= password_field_tag :password, '' %>
+</div>
 
-  <%= submit_tag 'Login' %>
-
+  <%= submit_tag 'Login', class: "submit"%>
+</div>
 <% end %>

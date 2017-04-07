@@ -1,22 +1,23 @@
-<img src="http://placehold.it/1200x250/text-banner-image">
 
-<h1><%= @user.name %></h1>
-<div class="leftcol">
+
+
+<div class="middlebio">
+  <div class='bio'>
+    <h1><%= @user.name %></h1>
+  Typical writer. Internet scholar. Organizer. Certified introvert. Student. Tv aficionado.
+
+  </div>
+
+  <div class="middleimg">
 <center><%= image_tag @user.avatar.url(:medium) %></center>
 
-<div class='bio'>
-Enter Bio Here
-
 </div>
 
 </div>
+
 
 <div class="rightcol">
 <% @posts.each do |post| %>
   <%= render partial: 'posts/post', locals: {post: post} %>
 <% end %>
-</div>
-
-<div class="farrightcol">
-  Follow button
 </div>

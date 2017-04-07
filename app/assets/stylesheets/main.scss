@@ -1,3 +1,5 @@
+
+
 header{
 
   padding-right: 10px;
@@ -5,31 +7,100 @@ header{
   padding-top: 20px;
   padding-bottom: 20px;
   overflow: auto;
-  border-style: solid;
-  border-top: 10px;
-  border-left: 10px;
-  border-right: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  border-color: #588B74;
+
+  margin-top: -35px;
+  margin-left: -35px;
+  margin-right: -35px;
+  margin-bottom: 50px;
+
+  color: black;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: medium;
+background-color: rgba(88, 140, 116, .10);
+
 
 }
+
+
 
 header h1{
   margin: 0;
 }
 
-header h1 a,
-header h1 a:visited,
-header h1 a:hover{
+header a,
+header a:visited,
+header a:hover{
   text-decoration: none;
-text-decoration-color: black;
+  color: black;
+  background: none;
 }
 
-.left{
-  float: left;
-  width: 50%
-}
+
+
 
 .right{
   float: left;
   width: 50%;
   text-align: right;
+}
+
+.logo{
+  width: 200px;
+  align-content: center;
+}
+
+.form{
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-decoration-color: black;
+  padding-bottom: 40px;
+overflow: auto;
+margin-left: 10px;
+
+
+}
+
+.formbody:focus{
+  outline: none
+}
+
+.formbody{
+
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-decoration-color: black;
+  border-width: thin;
+  border-color: #588B74;
+  border-style: solid;
+  width: 70%;
+  height: 30px;
+  background-color: rgba(255,255,255,.80);
+  padding: 10px;
+
+
+
+}
+
+.submit{
+  float: left;
+  width: 20%;
+  margin-left: 5px;
+  margin-top: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #588B74;
+  border: none;
+  cursor:pointer;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  border-radius: 5%;
+
+
 }

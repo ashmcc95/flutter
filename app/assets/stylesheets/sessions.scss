@@ -1,3 +1,46 @@
 // Place all the styles related to the sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #588B74;
+}
+
+.second{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+input[type="text"], input[type="password"] {
+
+  border: 1px solid #588B74;
+  border-left: 2px solid #588B74;
+  height: 20px;
+
+}
+
+.submit{
+  background-color:  #588B74;
+  font-family: 'Roboto', sans-serif;
+  width: 50%;
+  margin-left: -1px;
+}
+
+.main{
+  margin-left: 20%;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #588B74;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-left: 60px;
+  width:210px;
+  background-color: rgba(88, 140, 116, .10);
+
+}
+
+
+.space{
+  padding-top: 5px;
+}

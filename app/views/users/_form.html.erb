@@ -1,23 +1,47 @@
 <%= form_for(user, html: { multipart: true }) do |f| %>
+  <div class="border">
+<div class="main">
 
+  <div class="space">
 <%= f.label :name %>
-<%= f.text_field :name %>
-
+</div>
+<div class="space">
+<%= f.text_field :name%>
+</div>
+<div class="space">
 <%= f.label :email %>
-<%= f.text_field :email %>
+</div>
+<div class="space">
+<%= f.text_field :email, class: 'field' %>
+</div>
 
+<div class="space">
 <%= f.label :avatar, 'Your Face' %>
-<%= f.file_field :avatar %>
+</div>
+<div class="space">
+<%= f.file_field :avatar%>
+</div>
 
+<div class="space">
 <%= f.label :password %>
+</div>
+<div class="space">
 <%= f.password_field :password %>
+</div>
 
+<div class="space">
 <%= f.label :password_confirmation %>
+</div>
+<div class="space">
 <%= f.password_field :password_confirmation %>
+</div>
 
-<br>
-<%= f.submit %>
 
+
+<%= f.submit class:'submit'%>
+
+</div>
+</div>
 
 
 
