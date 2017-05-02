@@ -36,6 +36,7 @@ gem "paperclip", "~> 5.0.0"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'dropzonejs-rails'
 
 
 group :production do
